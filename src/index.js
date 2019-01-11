@@ -6,8 +6,6 @@ import * as serviceWorker from './serviceWorker'
 import { StoreProvider, createStore } from 'easy-peasy'
 import model from './store'
 
-require('dotenv').config()
-
 const store = createStore(model)
 
 ReactDOM.render(
